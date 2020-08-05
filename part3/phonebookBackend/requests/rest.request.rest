@@ -1,0 +1,19 @@
+DELETE http://localhost:3001/api/persons/5f271e18cefd134880b14aa9
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Merve",
+    "number": "78910"
+}
+
+###
+GET http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/5f268ac9e72dcd4a7889da00
+
+###
+GET  https://limitless-river-02022.herokuapp.com/api/persons
